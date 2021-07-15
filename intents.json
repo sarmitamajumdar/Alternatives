@@ -1,0 +1,78 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", ",hello", "Hey","What's up", "How are you", "May you help me?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thank you,what can I do for you?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back soon.","see you soon"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure", "I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?","What support is offered","How algae could transform to healthy diets?","How spirulina could transform to healthy diets?","How secure spirulina as diet?","Is there any option?","Is there any alternative food source to healthy diets?"],
+         "responses": ["Hi, 'am here to help you with alternative way of diet and nutritional food source"],
+         "context": [""]
+        },
+        {"tag": "about spirulina",
+         "patterns": ["What is Spirulina?", "tell me about micro algae", "spirulina?", "is spirulina algae?", "what's spirulina"],
+         "responses": ["Spirulina is one kind of blue-green algae and safe to take as food supplement."],
+         "context": [""]
+        },
+        {"tag": "contains",
+         "patterns": ["What contains Spirulina?", "What does Spirulina contain?","Is spirulina contains vitamins?","Is spirulina contains minerals?","What does Spirulina contain?", "Is spirulina contains vitamins?", "Is spirulina contains minerals?"],
+         "responses": ["Spirulina as a micro-algae, rich source in protein, amino acids, fatty acids, vitamins, nutrients like, B-vitamins, β-carotene, vitamin-E,antioxidants, minerals,chlorophyll, and phyco-cyanobilin."],
+         "context": [""]
+        },
+        {"tag": "spirulina-as-food",
+         "patterns": ["I want to search on food and food supplement", "nutritional food", "one food that can help in survive", "healthy and nutritional food suppliment", "Find everything about spirulina"],
+         "responses": ["welcome, you are in a right place, please ask me anything on spirulina"],
+         "context": ["search_for_food_supplement"]
+        },
+        {"tag": "search-by-amount-of-contains-in-spirulina",
+         "patterns": ["How much protein contains spirulina?","How much protein contains spirulina?","How much fat contains spirulina?","Is  spirulina contains fat?","How much  carbohydrates contains spirulina?","Is  spirulina contains Carbohydrates?","How much  fiber contains spirulina?", "Is  spirulina contains fiber?"],
+         "responses": ["Each serve of Spirulina contains:4gm protein, 2gm carbohydrates, 1gm fat"],
+         "context": ["search_by_nutritional_amount"]
+        },
+        {"tag": "probiotics",
+         "patterns": ["Is Spirulina probiotics?", "How Spirulina can solve constipation?", "How Spirulina can solve constipation?","List of probiotics in spirulina", "Locate pharmacy", "Search probiotics in spirulina" ],
+         "responses": ["Yes, spirulina is a source for probiotic as it has a greater stimulatory effect on the growth \" of probiotic bacteria like, L. lactis, B. longum and L. bulgaricus."],
+         "context": ["spirulina_as_probiotic"]
+        },
+        {"tag": "search_pharmacy_by_name",
+         "patterns": [],
+         "responses": ["Loading pharmacy details"],
+         "context": [""]
+        },
+        {"tag": "hospital_search",
+         "patterns": ["Lookup for hospital", "Searching for hospital to transfer patient", "I want to search hospital data", "Hospital lookup for patient", "Looking up hospital details" ],
+         "responses": ["Please provide hospital name or location"],
+         "context": ["search_hospital_by_params"]
+        },
+        {"tag": "search_hospital_by_params",
+         "patterns": [],
+         "responses": ["Please provide hospital type"],
+         "context": ["search_hospital_by_type"]
+        },
+        {"tag": "search_hospital_by_type",
+         "patterns": [],
+         "responses": ["Loading hospital details"],
+         "context": [""]
+        },
+        {"tag": "Search information on microalgae",
+          "patterns": ["what's microalgae","what is microalgae"],
+          "responses": ["In general algae can be referred to as plant-like organisms that are usually photosynthetic and aquatic, but do not have true roots, stems, leaves, vascular tissue and have simple reproductive structures. They are distributed worldwide in the sea, in freshwater and in most situations on land."],
+          "context": [""]
+        }
+   ]
+}

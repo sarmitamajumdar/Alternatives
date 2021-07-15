@@ -1,0 +1,1 @@
+https://www.thepythoncode.com/article/building-python-files-into-stand-alone-executables-using-pyinstaller
