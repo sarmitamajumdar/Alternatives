@@ -1,0 +1,203 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", ",hello", "Hey","What's up", "How are you", "May you help me?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thank you,what can I do for you?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back soon.","see you soon"],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure", "I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?","What support is offered","How algae could transform to healthy diets?","How spirulina could transform to healthy diets?","How secure spirulina as diet?","Is there any option?","Is there any alternative food source to healthy diets?"],
+         "responses": ["Hi, 'am here to help you with alternative way of diet and nutritional food source"],
+         "context": [""]
+        },
+        {"tag": "about_spirulina",
+         "patterns": ["What is Spirulina?", "tell me about micro algae", "spirulina?", "is spirulina algae?", "what's spirulina"],
+         "responses": ["Spirulina is one kind of blue-green algae and safe to take as food supplement."],
+         "context": [""]
+        },
+        {"tag": "contains",
+         "patterns": ["What contains Spirulina?", "What does Spirulina contain?","Is spirulina contains vitamins?","Is spirulina contains minerals?","What does Spirulina contain?", "Is spirulina contains vitamins?", "Is spirulina contains minerals?"],
+         "responses": ["Spirulina as a micro-algae, rich source in protein, amino acids, fatty acids, vitamins, nutrients like, B-vitamins, β-carotene, vitamin-E,antioxidants, minerals,chlorophyll, and phyco-cyanobilin."],
+         "context": [""]
+        },
+        {"tag": "as_food_supplement",
+         "patterns": ["I want to search food supplement", "nutritional food", "one food that can help in survive", "healthy and nutritional food suppliment", "Find everything about spirulina"],
+         "responses": ["an all-in-one source of nutrients including protein, minerals, vitamin, fat and carbohydratesand helps protect malnutrition"],
+         "context": ["search_for_food_supplement"]
+        },
+        {"tag": "amount",
+         "patterns": ["How much protein contains spirulina?","How much protein contains spirulina?","How much fat contains spirulina?","Is  spirulina contains fat?","How much  carbohydrates contains spirulina?","Is  spirulina contains Carbohydrates?","How much  fiber contains spirulina?", "Is  spirulina contains fiber?"],
+         "responses": ["Each serve of Spirulina contains:4gm protein, 2gm carbohydrates, 1gm fat"],
+         "context": ["search_by_nutritional_amount"]
+        },
+        {"tag": "probiotics_constipation",
+         "patterns": ["Is Spirulina probiotics?", "How Spirulina can solve constipation?", "How Spirulina can solve constipation?","List of probiotics in spirulina", "Locate pharmacy", "Search probiotics in spirulina" ],
+         "responses": ["Yes, spirulina is a source for probiotic as it has a greater stimulatory effect on the growth \" of probiotic bacteria like, L. lactis, B. longum and L. bulgaricus."],
+         "context": ["spirulina_as_probiotic"]
+        },
+        {"tag": "intake_eat",
+         "patterns": ["How do I intake spirulina?","How do I eat spirulina?","What is the best way to consume freshly frozen spirulina?"],
+         "responses": ["In powder form, tablet form, with salad, making juice, stir with card, milk,"],
+         "context": ["eat-use"]
+        },
+        {"tag": "sugar_diabetice",
+         "patterns": ["Is spirulina contain sugar?", "may diabetic patient consume spirulina?","can it use diabetic patient?" ],
+         "responses": ["Spirulina contains no sugar"],
+         "context": ["Sugar"]
+        },
+        {"tag": "health_benefits",
+         "patterns": ["health benefits","what are the benefits of spirulina?"],
+         "responses": ["As a potent source of nutrients,it contains a powerful plant-based protein called phycocyanin, have antioxidant, pain-relief, anti-inflammatory, and brain-protective properties. "],
+         "context": ["health-benefits"]
+        },
+        {"tag": "Anti_Cancer",
+         "patterns": ["is there anti cancer properties?","Is sprulina anti-cancer?"],
+         "responses": ["presence of antioxidants in spirulina have anti-inflammatory effects in the body"],
+         "context": ["anti-cancer"]
+        },
+        {"tag": "micro_algae",
+          "patterns": ["what's micro algae","what is micro algae"],
+          "responses": ["In general algae can be referred to as plant-like organisms that are usually photosynthetic and aquatic, but do not have true roots, stems, leaves, vascular tissue and have simple reproductive structures. They are distributed worldwide in the sea, in freshwater and in most situations on land."],
+          "context": [""]
+        },
+        {"tag": "immunity",
+         "patterns": ["what_is_Phycocyanin?","How Spirulina boost up immunity?"],
+         "responses": ["Phycocyanin- an immune booster present in spirulina helps reduce inflammation, blocks tumor growth and kill cancer cells"],
+         "context": ["immunity"]
+        },
+        {"tag": "Heart_health",
+         "patterns": ["is spirulina helps heart?","is spirulina works to protect heart?","is it protect in heart?"],
+         "responses": ["protein in spirulina can reduce the absorption of cholesterol, lowering cholesterol levels that helps keep arteries clear,reducing strain, prevent stroke that causing blood clots.Gama linoleic acid (GLA) dissolves fat deposits "],
+         "context": ["heart"]
+        },
+        {"tag": "Nutrients",
+         "patterns": ["Spirulina contains nutrients?","kind of nutrients spirulina contains?"],
+         "responses": ["nutrients like, B-vitamins, β-carotene, vitamin-E,antioxidants, minerals,chlorophyll, and phyco-cyanobilin. "],
+         "context": ["Nutrients"]
+        },
+        {"tag": "best_feature",
+         "patterns": ["Best feature in spirulina?","What is the best feature in spirulina?"],
+         "responses": ["The best feature of spirulina is the nutrients are very well assimilated because it contains no cellulose in its cell walls." ],
+         "context": ["feature"]
+        },
+        {"tag": "protect_disease",
+         "patterns": ["what kind of disease spirulina can protect?"],
+         "responses": ["diabetes, anaemia and atmospheric pollution, arthritis, some type of cancer." ],
+         "context": ["disease"]
+        },
+        {"tag": "AIDs",
+         "patterns": ["Is spirulina helpful for AIDS?","Why Spirulina helpful in AIDS?"],
+         "responses": ["presence of sulfolipids in spirulina are remarkably active against the AIDS virus." ],
+         "context": ["AIDs"]
+        },
+        {"tag": "regular_daily",
+         "patterns": ["What happens if anybody intake spirulina regular?","May i intake regularly?"],
+         "responses": ["Yes" ],
+         "context": ["regular"]
+        },
+        {"tag": "amount_to_take",
+         "patterns": ["How much to take spirulina?","amount to eat?"],
+         "responses": ["1 to 5 grams" ],
+         "context": ["amount"]
+        },
+        {"tag": "kind_of_vitamins",
+         "patterns": ["what kind of vitamins spirulina contains?"],
+         "responses": ["Thiamine (B1),Riboflavin(B2), Niacin(B3)"],
+         "context": ["kind-of-vitamins"]
+        },
+        {"tag": "kind_of_minerals",
+         "patterns": ["what kind of minerals spirulina contains?"],
+         "responses": ["Copper, Iron,Magnesium"],
+         "context": ["kind-of-minerals"]
+        },
+        {"tag": "food_supplement",
+         "patterns": ["Is spirulina food or food supplement?"],
+         "responses": ["Spirulina is considered as complete food supplement to combat against malnutrition deficiencies."],
+         "context": ["supplement"]
+        },
+        {"tag": "how_to_use",
+         "patterns": ["How to intake spirulina?","How to eat spirulina?","How do anybody intake spirulina?","What is the best way to consume spirulina?"],
+         "responses": ["1.to smoothies,2.sprinkle spirulina powder on salads or in soups.3.mix it into energy balls, 4.stir into fruit or vegetable juices,5.add in salad, 6.tablet or capsule format " ],
+         "context": ["eat"]
+        },
+        {"tag": "everybody_can_use",
+         "patterns": ["Can everybody consume spirulina?"],
+         "responses": ["as Superfood can be taken by everybody instead restricted to people with certain health conditions, as prescribed by Doctor"],
+         "context": ["restrictions"]
+        },
+        {"tag": "Lever_damaging",
+         "patterns": ["Is Spirulina can injure Liver?","Is Spirulina can damage Liver?"],
+         "responses": ["In general, No"],
+         "context": ["Lever"]
+        },
+        {"tag": "autoimmune_disease",
+         "patterns": ["Is Spirulina bad for autoimmune disease?","Is Spirulina bad for autoimmune diseases?","Is anybody who have disease like multiple sclerosis, rheumatoid arthritis,lupus can safe to take Spirulina?"],
+         "responses": ["As Spirulina stimulates the immune system, so can make the condition bad"],
+         "context": ["autoimmune-disease"]
+        },
+        {"tag": "skin_hair_teeth",
+         "patterns": ["Is spirulina good for skin?","Is spirulina good for hair?","Is spirulina good for tooth?","Is spirulina good for eye?","Is spirulina good for lever?","Is spirulina good for immunity?","Is spirulina good for skin?"],
+         "responses": ["Yes, it is."],
+         "context": ["skin-hair-teeth"]
+        },
+        {"tag": "Toxic",
+         "patterns": ["Is Spirulina be toxic?"],
+         "responses": ["No"],
+         "context": ["Toxic"]
+        },
+        {"tag": "Gut_health",
+         "patterns": ["Is spirulina can help in gut health?","Is spirulina can help in constipation?","Is spirulina can help in poop?","Is spirulina can help to improve intestine?", "Is spirulina can help to imrove intestinal health?"],
+         "responses": ["Yes, solves intestinal problem"],
+         "context": ["gut-health"]
+        },
+        {"tag": "detox",
+         "patterns": ["Is Spirulina detox heavy metals?","Spirulina can detox?"],
+         "responses": ["Yes"],
+         "context": ["detox"]
+        },
+        {"tag": "malnutrition",
+         "patterns": ["Is Spirulina helps in malnutrition?","Is spirulina helps in malnutrition?"],
+         "responses": ["https://opendocs.ids.ac.uk/opendocs/handle/20.500.12413/4398"],
+         "context": ["research"]
+        },
+        {"tag": "heavy_metals",
+         "patterns": ["what kind of heavy metals Spirulina can detox?"],
+         "responses": ["Cadmium, mercury, lead, arsenic"],
+         "context": ["heavy-metals"]
+        },
+        {"tag": "blood_thinner",
+         "patterns": ["Is spirulina a blood thinner?"],
+         "responses": ["Spirulina has an anticoagulant effect that helps to thin blood and prevent excessive bleeding."],
+         "context": ["blood-thinner"]
+        },
+        {"tag": "weather_or_temperature_to_grow_cultivation_spirulina",
+         "patterns": ["what type of weather needs to grow spirulina?","Is it possible to grow Spirulina in a cold or hot weather?","How much temparature needs to grow spirulina?"],
+         "responses": ["Spirulina needs consistent high temperature which ranges from 20 to 35 degrees."],
+         "context": ["weather"]
+        },
+        {"tag": "cultivation_spirulina",
+         "patterns": ["How does Spirulina grows?","How do I cultivate Spirulina?","How to grow at home?"],
+         "responses": ["There are 5 major conditions satisfies to grow Spirulina:\n1.Tropical weather\n2.Strong sunshine\n3.Pure water resource\n4.Pollution free environment\n5. temperature between 20 to 35 degrees."],
+         "context": ["process_grow"]
+        },
+        {"tag": "benefit_over_soy_animal_protein",
+         "patterns": ["What other benefits of spirulina over soy and animal protein?"],
+         "responses": ["Spirulina helps in struggling with global warming as it fixes carbon and produces oxygen"],
+         "context": ["process_grow"]
+        }
+]
+}
