@@ -1,4 +1,4 @@
-![Logo of the project](https://github.com/sarmitamajumdar/Alternatives/blob/main/alter-png22.png)
+<img src="https://github.com/sarmitamajumdar/Alternatives/blob/main/alter-png22.png" width="350"/>
 
 # Alternatives
 > Think on Zero Hunger, Focus on Nutrition
