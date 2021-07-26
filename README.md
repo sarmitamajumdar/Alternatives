@@ -1,4 +1,4 @@
-<img src="https://github.com/sarmitamajumdar/Alternatives/blob/main/alter-png22.png" width="350"/>
+<img src="https://github.com/sarmitamajumdar/Alternatives/blob/main/alter-png22.png" width="300"/>
 
 # Alternatives
 > Think on Zero Hunger, Focus on Nutrition
@@ -6,77 +6,25 @@
 The exisisting, focused agricultural systems are busy in producing staple grains rather than producing diverse and healthier foods. The pandemic along with critical climate emergency makes us to re-think food systems. Spirulina, the blue green algae, with it's immense source of protein, essential nutrients, could fulfil the dietary needs and help protect  malnutrition  of billions of people in our over populated planet. It could be an alternative to meat or soya farming. Farming of spirulina can protect fragile ecosystems by reducing Carbon emission, treat Nuclear waste, and can produce renewable bio-fuel to produce the global energy in future.
 Alternatives - an informational chatbot. Used NLP & Keras to create a 3 layer neuron, to generate output.
 
-#pip install keras
-#pip install Tkinter
+#pip install python3.7 
 
 ## Developing
 
 Self taught developer on Machine Learning, deep learning. Create a conversational chatbot project.  Prior experiences in training C Data structure, Python 3. Some experience as Product Manager in a Software company for their ERP modules. Last year 2020 Call for code, submitted project "Project-Grip". It was a Dashboard on  Covid 19. Mainly on Indian scenario.
-
-```shell
-git clone https://github.com/your/awesome-project.git
-cd awesome-project/
-packagemanager install
-`
-
-
-### Building
-
-I failed to use IBM Cloud or watson. Tried but couldn't manage what exactly to do. So if my project will not be acceptable, requesting just to go through my files and approaches. 
-
-```shell
-./configure
-make
-make install
-```
-
-
 
 ### Deploying / Publishing
 
 intents.json :  Contains predefined patterns and responses.
 train_chatbot.py : A Python file, contains script to build the model and train the Chatbot.
 Words.pkl  : A pickle file used to store the words that python object, contains a list of vocabulary.
-classes.pkl : This file contains the list of categories.
+classes.pkl : This file contains the list of categories.'\n'
 chatbot_model.h5 – This is the trained model that contains information about the model that has Weights of the neurons.
 chatgui.py: This is the Python script in which we implemented GUI for the Chatbot.
 
-```shell
-packagemanager deploy awesome-project -s server.com -u username -p password
-```
-
-And again you'd need to tell what the previous code actually does.
-
 ## Features
-
 * Provide information on future food, Spirulina
 * Health benefits
 * Farming
-
-## Configuration
-
-Here you should write what are all of the configurations a user can enter when
-using the project.
-
-#### Argument 1
-Type: `String`  
-Default: `'default value'`
-
-State what an argument does and how you can use it. If needed, you can provide
-an example below.
-
-Example:
-```bash
-awesome-project "Some other value"  # Prints "You're nailing this readme!"
-```
-
-#### Argument 2
-Type: `Number|Boolean`  
-Default: 100
-
-Copy-paste as many of these as you need.
-
-## Contributing
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
