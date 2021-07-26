@@ -17,7 +17,7 @@ Self taught developer on Machine Learning, deep learning. Create a conversationa
 intents.json :  Contains predefined patterns and responses.
 train_chatbot.py : A Python file, contains script to build the model and train the Chatbot.
 Words.pkl  : A pickle file used to store the words that python object, contains a list of vocabulary.
-classes.pkl : This file contains the list of categories.'\n'
+classes.pkl : This file contains the list of categories.
 chatbot_model.h5 – This is the trained model that contains information about the model that has Weights of the neurons.
 chatgui.py: This is the Python script in which we implemented GUI for the Chatbot.
 
@@ -35,16 +35,8 @@ Even though this information can be found inside the project on machine-readable
 format like in a .json file, it's good to include a summary of most useful
 links to humans using your project. You can include links like:
 
-- Project homepage: https://your.github.com/awesome-project/
-- Repository: https://github.com/your/awesome-project/
-- Issue tracker: https://github.com/your/awesome-project/issues
-  - In case of sensitive bugs like security vulnerabilities, please contact
-    my@email.com directly instead of using issue tracker. We value your effort
-    to improve the security and privacy of this project!
-- Related projects:
-  - Your other project: https://github.com/your/other-project/
-  - Someone else's project: https://github.com/someones/awesome-project/
-
+- Project homepage: https://sarmitamajumdar.github.com/Alternatives/
+- Repository: https://github.com/sarmitamajumdarr/Alternatives/
 
 ## Licensing
 
