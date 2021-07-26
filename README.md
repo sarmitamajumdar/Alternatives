@@ -1,4 +1,4 @@
-<img src="https://github.com/sarmitamajumdar/Alternatives/blob/main/alter-png22.png" width="300"/>
+<img src="https://github.com/sarmitamajumdar/Alternatives/blob/main/alter-png22.png" width="280"/>
 
 # Alternatives
 > Think on Zero Hunger, Focus on Nutrition
@@ -39,10 +39,4 @@ links to humans using your project. You can include links like:
 - Repository: https://github.com/sarmitamajumdarr/Alternatives/
 
 ## Licensing
-
-One really important part: Give your project a proper license. Here you should
-state what the license is and how to find the text version of the license.
-Something like:
-
-"The code in this project is licensed under MIT license."
 
