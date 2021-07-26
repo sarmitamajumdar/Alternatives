@@ -44,6 +44,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 - Project homepage: https://sarmitamajumdar.github.com/Alternatives/
 - Repository: https://github.com/sarmitamajumdarr/Alternatives/
+- email : sarmita.majumdar@gmail.com
 
 ## Licensing
 
