@@ -1,18 +1,24 @@
 <img src="https://github.com/sarmitamajumdar/Alternatives/blob/main/alter-png22.png" width="280"/>
 
-# Alternatives
+## Alternatives
 > Think on Zero Hunger, Focus on Nutrition
 
 The exisisting, focused agricultural systems are busy in producing staple grains rather than producing diverse and healthier foods. The pandemic along with critical climate emergency makes us to re-think food systems. Spirulina, the blue green algae, with it's immense source of protein, essential nutrients, could fulfil the dietary needs and help protect  malnutrition  of billions of people in our over populated planet. It could be an alternative to meat or soya farming. Farming of spirulina can protect fragile ecosystems by reducing Carbon emission, treat Nuclear waste, and can produce renewable bio-fuel to produce the global energy in future.
 Alternatives - an informational chatbot. Used NLP & Keras to create a 3 layer neuron, to generate output.
 
-#pip install python3.7 
+### Installation
 
-## Developing
+###### C:\Users\new> pip install python3.7
+###### C:\Users\new> pip install numpy
+###### C:\Users\new>pip install tensorflow 2.0
+###### C:\Users\new>pip install keras
+###### C:\Users\new>pip install json
+
+### Developing
 
 Self taught developer on Machine Learning, deep learning. Create a conversational chatbot project.  Prior experiences in training C Data structure, Python 3. Some experience as Product Manager in a Software company for their ERP modules. Last year 2020 Call for code, submitted project "Project-Grip". It was a Dashboard on  Covid 19. Mainly on Indian scenario.
 
-### DATA & File overview
+### Data & File overview
 
 #intents.json :  Contains predefined patterns and responses.
 #train_chatbot.py : A Python file, contains script to build the model and train the Chatbot.
@@ -21,12 +27,12 @@ Self taught developer on Machine Learning, deep learning. Create a conversationa
 #chatbot_model.h5 – This is the trained model that contains information about the model that has Weights of the neurons.
 #chatgui.py: This is the Python script in which we implemented GUI for the Chatbot.
 
-## Features
+### Features
 * Provide information on future food, Spirulina
 * Health benefits
 * Farming
 
-## Methodological information
+### Methodological information
 ##### nltk :NLP toolkit to analyze text.
 ##### json : To store, transmit data objects of attribute-value pairs and arrays.
 ##### pickle: To convert objects into character stream.
@@ -37,14 +43,14 @@ Self taught developer on Machine Learning, deep learning. Create a conversationa
 ##### Fit and save: Fit the model and save it into chatbot_model.h5 file.
 ##### Tkinter : Finally used Tkinter library too develop a Graphical User Interface.
 
-## Contributing
+### Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## Links
+### Links
 
 - Project homepage: https://sarmitamajumdar.github.com/Alternatives/
 - Repository: https://github.com/sarmitamajumdarr/Alternatives/
 - email : sarmita.majumdar@gmail.com
 
-## Licensing
+###### Licensing
 
