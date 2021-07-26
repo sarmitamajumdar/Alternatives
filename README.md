@@ -26,7 +26,7 @@ Self taught developer on Machine Learning, deep learning. Create a conversationa
 * Health benefits
 * Farming
 
-## Method to access Data
+## Methodological information
 ##### nltk :NLP toolkit to analyze text.
 ##### json : To store, transmit data objects of attribute-value pairs and arrays.
 ##### pickle: To convert objects into character stream.
@@ -36,9 +36,6 @@ Self taught developer on Machine Learning, deep learning. Create a conversationa
 ##### Compile the model: Stochastic Gradient Descent(SGD), to minimize Loss & Optimize accuracy.
 ##### Fit and save: Fit the model and save it into chatbot_model.h5 file.
 ##### Tkinter : Finally used Tkinter library too develop a Graphical User Interface.
-
-## Data/ Variables/ Method specific information:
-#####
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
