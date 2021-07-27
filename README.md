@@ -48,8 +48,8 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ### Links
 
-- Project homepage: https://sarmitamajumdar.github.com/Alternatives/
-- Repository: https://github.com/sarmitamajumdarr/Alternatives/
+
+- Repository: https://github.com/sarmitamajumdarr/Alternatives.git/
 - email : sarmita.majumdar@gmail.com
 
 ###### Licensing
